@@ -1,0 +1,12 @@
+version: '3'
+services:
+  law_bot:
+    image: law_bot
+    environment:
+      - OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+      - DATA_PATH=/data
+    volumes:
+      - data:/data
+    network_mode: host
+volumes:
+  data:

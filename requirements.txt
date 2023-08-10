@@ -1,0 +1,13 @@
+scipy
+peewee
+langchain
+faiss-cpu
+openai
+tiktoken
+streamlit
+streamlit-chat
+unstructured[local-inference]
+layoutparser[layoutmodels,tesseract]
+tabulate
+sentence_transformers
+gpt4all
